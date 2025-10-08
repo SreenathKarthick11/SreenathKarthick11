@@ -16,7 +16,7 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 <p align="center">
   <img src="https://img.shields.io/badge/C-blue?style=for-the-badge&logo=c&logoColor=white"/>
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
@@ -65,20 +65,20 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
 
 ---
 
-### ⚙️ Hardware, Embedded & Fun Builds
-- 🚀 **Rocketry Avionics System (Ongoing)** – Real-time ESP32 + FreeRTOS flight telemetry and altitude logging system.  
+###  Hardware, Embedded & Fun Builds
+-  **Rocketry Avionics System (Ongoing)** – Real-time ESP32 + FreeRTOS flight telemetry and altitude logging system.  
   *(FreeRTOS · Sensors · ESP32)*  
 
-- 🗣️ [**Voico-Bot**](https://github.com/Murali47k/Voico-BOT) – Voice-controlled bot with ESP32 + web interface.  
+- [**Voico-Bot**](https://github.com/Murali47k/Voico-BOT) – Voice-controlled bot with ESP32 + web interface.  
 
 ---
 
-## 🏆 Achievements
+##  Achievements
 
-- 🥇 **8th Place – Inter IIT Tech Meet (ISRO Problem Statement, IIT Bombay)**  
+- **8th Place – Inter IIT Tech Meet (ISRO Problem Statement, IIT Bombay)**  
 ---
 
-## 📊 GitHub Stats
+##  GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SreenathKarthick11&show_icons=true&theme=radical" height="160"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SreenathKarthick11&layout=compact&theme=radical" height="160"/>
@@ -90,7 +90,7 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
 
 ---
 
-## 🌐 Connect with Me
+##  Connect with Me
 <p align="center">
   <a href="https://www.linkedin.com/in/sreenath-karthick-7551aa288/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
