@@ -38,13 +38,13 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
 - [**PeliCAM**](https://github.com/SreenathKarthick11/PeliCAM)  
   Visual Explainable AI tool supporting CAM, LIME, and SHAP.  
   **Live:** [peliCAM-web](https://sreenathkarthick11.github.io/PeliCAM-web/)  
-  *(Python · PyTorch · PyQt)*  
+
 
 - [**Moon Mapping (ISRO Problem)**](https://github.com/enchanteddev/MoonViewer)  
-  XRF data analysis for lunar albedo visualization. *(Python · Pandas · NumPy · SciPy)*  
+  XRF data analysis for lunar albedo visualization. 
 
 - [**X-Ray Analyser**](https://github.com/SreenathKarthick11/X_Ray_Analyser)  
-  CNN-based medical image classifier for fracture detection. *(Python · Flask · OpenCV)*  
+  CNN-based medical image classifier for fracture detection. 
 
 ---
 
@@ -52,12 +52,12 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
 - [**Slope Motion System**](https://github.com/ashwinramaswamy92/Slope_Motion_System)  
   Cognitive learning tool to visualize slopes and derivatives.  
   **Live:** [slope-motion-system](https://slope-motion-system-m2.onrender.com/)  
-  *(HTML · CSS · JavaScript · Python)*  
+  
 
 - [**ESP-ML Library**](https://github.com/SreenathKarthick11/ESP_ML)  
   ML library for ESP32 enabling cloud inference via REST APIs.  
   **Live API:** [esp-ml-backend](https://esp-ml-backend.onrender.com/)  
-  *(Python · Flask · C++ · IoT)*  
+ 
 
 - [**DIP Workshop Web**](https://github.com/SreenathKarthick11/dip-workshop)  
   Interactive educational site for Digital Image Processing concepts.  
