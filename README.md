@@ -39,12 +39,15 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
   Visual Explainable AI tool supporting CAM, LIME, and SHAP.  
   **Live:** [peliCAM-web](https://sreenathkarthick11.github.io/PeliCAM-web/)  
 
-
 - [**Moon Mapping (ISRO Problem)**](https://github.com/enchanteddev/MoonViewer)  
-  XRF data analysis for lunar albedo visualization. 
-
+  XRF data analysis for lunar albedo visualization.
+  
+- [**Stellar ML**](https://github.com/SreenathKarthick11/Stellar_ML)
+  Stellar_ML is a comprehensive machine learning project that classifies celestial objects (Stars, Galaxies, and Quasars) from the Sloan Digital Sky Survey (SDSS) DR17 dataset
+  **Live:** [notebook](https://sreenathkarthick11.github.io/Stellar_ML/)
+  
 - [**X-Ray Analyser**](https://github.com/SreenathKarthick11/X_Ray_Analyser)  
-  CNN-based medical image classifier for fracture detection. 
+  CNN-based medical image classifier for fracture detection.
 
 ---
 
