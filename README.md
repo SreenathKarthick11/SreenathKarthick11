@@ -43,7 +43,7 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
   XRF data analysis for lunar albedo visualization.
   
 - [**Stellar ML**](https://github.com/SreenathKarthick11/Stellar_ML) \
-  Stellar_ML is a comprehensive machine learning project that classifies celestial objects (Stars, Galaxies, and Quasars) from the Sloan Digital Sky Survey (SDSS) DR17 dataset \
+  Stellar_ML is a comprehensive machine learning project that classifies celestial objects from the Sloan Digital Sky Survey (SDSS) DR17 dataset \
   **Live:** [notebook](https://sreenathkarthick11.github.io/Stellar_ML/)
   
 - [**X-Ray Analyser**](https://github.com/SreenathKarthick11/X_Ray_Analyser)  
