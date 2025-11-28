@@ -625,9 +625,17 @@
 
 /* Mobile — single column, slider still works */
 @media (max-width: 768px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
+  .projects-slider-container {
+    position: relative;
+    padding: 0 2rem; /* so arrows don’t overlap cards */
   }
+
+  .slider-btn {
+    padding: 0.5rem 0.65rem;
+    font-size: 1.2rem;
+    display: none !important;
+  }
+
 }
 
   </style>
@@ -872,15 +880,46 @@ document.addEventListener("DOMContentLoaded", () => {
     wrapper.style.transform = `translateX(${-currentPage * 100}%)`;
   }
 
-  nextBtn.addEventListener("click", () => {
-    if (currentPage < totalPages - 1) currentPage++;
-    updateSlider();
-  });
+  /* DESKTOP BUTTONS */
+  if (pageSize > 3) {
+    nextBtn.addEventListener("click", () => {
+      if (currentPage < totalPages - 1) currentPage++;
+      updateSlider();
+    });
 
-  prevBtn.addEventListener("click", () => {
-    if (currentPage > 0) currentPage--;
-    updateSlider();
-  });
+    prevBtn.addEventListener("click", () => {
+      if (currentPage > 0) currentPage--;
+      updateSlider();
+    });
+  }
+
+  /* MOBILE SWIPE */
+  if (pageSize === 3) {
+    let startX = 0;
+    let currentX = 0;
+    let isDragging = false;
+
+    wrapper.addEventListener("touchstart", (e) => {
+      startX = e.touches[0].clientX;
+      isDragging = true;
+    });
+
+    wrapper.addEventListener("touchmove", (e) => {
+      if (!isDragging) return;
+      currentX = e.touches[0].clientX;
+    });
+
+    wrapper.addEventListener("touchend", () => {
+      if (!isDragging) return;
+      const diff = startX - currentX;
+
+      if (diff > 50 && currentPage < totalPages - 1) currentPage++;      // swipe left
+      if (diff < -50 && currentPage > 0) currentPage--;                  // swipe right
+
+      updateSlider();
+      isDragging = false;
+    });
+  }
 
   updateSlider();
 });
