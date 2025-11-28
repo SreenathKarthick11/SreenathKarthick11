@@ -625,6 +625,11 @@
 
 /* Mobile — single column, slider still works */
 @media (max-width: 768px) {
+  .projects-grid-wrapper .projects-grid {
+    grid-template-columns: 1fr !important;
+    padding: 0 !important;
+    margin: 0;
+  }
   .projects-slider-container {
     position: relative;
     padding: 0 2rem; /* so arrows don’t overlap cards */
