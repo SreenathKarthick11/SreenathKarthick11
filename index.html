@@ -564,9 +564,69 @@
   .project-card {
     padding: 1.25rem;
   }
-
+  .project-links{
+    max-width: 80%;
+  }
   .tech-grid {
     grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  }
+}
+/* SLIDER SYSTEM */
+.projects-slider-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.projects-slider {
+  overflow: hidden;
+  width: 100%;
+}
+
+.projects-grid-wrapper {
+  display: flex;
+  align-items: flex-start; 
+  transition: transform 0.4s ease-in-out;
+}
+.projects-grid-wrapper > .projects-grid {
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+.projects-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  padding: 0 1rem;
+  align-content: start; 
+}
+
+/* slider arrows */
+.slider-btn {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 0.75rem 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: 0.2s;
+}
+
+.slider-btn:hover {
+  background: var(--accent);
+}
+
+.slider-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* Mobile — single column, slider still works */
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -663,62 +723,82 @@
 
     <!-- PROJECTS -->
     <section id="projects">
-      <h2 class="section-title">Projects</h2>
-      <div class="projects-grid">
+    <h2 class="section-title">Projects</h2>
 
-        <article class="project-card pink">
-          <h3>PeliCAM</h3>
-          <p>Explainability toolkit supporting CAM, LIME, and SHAP for deep learning models.</p>
-          <div class="project-links">
-            <a href="https://github.com/SreenathKarthick11/PeliCAM" target="_blank">GitHub</a>
-            <a href="https://sreenathkarthick11.github.io/PeliCAM-web/" target="_blank">Live Demo</a>
-          </div>
-        </article>
+    <div class="projects-slider-container">
+        <button class="slider-btn prev">&#10094;</button>
 
-        <article class="project-card blue">
-          <h3>Moon Mapping (ISRO)</h3>
-          <p>XRF spectrum analysis to generate lunar albedo maps for planetary research.</p>
-          <div class="project-links">
-            <a href="https://github.com/enchanteddev/MoonViewer" target="_blank">GitHub</a>
-          </div>
-        </article>
+        <div class="projects-slider">
+        <div class="projects-grid-wrapper">
+            <div class="projects-grid" id="projectsGrid">
+            <!-- Your SAME project articles – untouched -->
+            
+            <article class="project-card pink">
+                <h3>PeliCAM</h3>
+                <p>Explainability toolkit supporting CAM, LIME, and SHAP for deep learning models.</p>
+                <div class="project-links">
+                <a href="https://github.com/SreenathKarthick11/PeliCAM" target="_blank">GitHub</a>
+                <a href="https://sreenathkarthick11.github.io/PeliCAM-web/" target="_blank">Live Demo</a>
+                </div>
+            </article>
 
-        <article class="project-card green">
-          <h3>Slope Motion System</h3>
-          <p>Interactive cognitive learning system for building intuition around slopes and derivatives.</p>
-          <div class="project-links">
-            <a href="https://github.com/Murali47k/Slope_Motion_System" target="_blank">GitHub</a>
-            <a href="https://slope-motion-system-m2.onrender.com/" target="_blank">Live Demo</a>
-          </div>
-        </article>
+            <article class="project-card blue">
+                <h3>Moon Mapping (ISRO)</h3>
+                <p>XRF spectrum analysis to generate lunar albedo maps for planetary research.</p>
+                <div class="project-links">
+                <a href="https://github.com/enchanteddev/MoonViewer" target="_blank">GitHub</a>
+                </div>
+            </article>
 
-        <article class="project-card peach">
-          <h3>Formal Verification & Tool Chain</h3>
-          <p>Custom 16-bit ISA with CPU simulator,Assembler and formal correctness proofs in Coq.</p>
-          <div class="project-links">
-            <a href="https://gitlab.com/rajdeep-314/formal-verification-oelp" target="_blank">GitLab</a>
-          </div>
-        </article>
+            <article class="project-card green">
+                <h3>Slope Motion System</h3>
+                <p>Interactive cognitive learning system for building intuition around slopes and derivatives.</p>
+                <div class="project-links">
+                <a href="https://github.com/Murali47k/Slope_Motion_System" target="_blank">GitHub</a>
+                <a href="https://slope-motion-system-m2.onrender.com/" target="_blank">Live Demo</a>
+                </div>
+            </article>
 
-        <article class="project-card blue">
-          <h3>ESP-ML Library</h3>
-          <p>Real-time ML inference on ESP32 microcontrollers through cloud APIs.</p>
-          <div class="project-links">
-            <a href="https://github.com/SreenathKarthick11/ESP_ML" target="_blank">GitHub</a>
-            <a href="https://esp-ml-backend.onrender.com/" target="_blank">Live API</a>
-          </div>
-        </article>
+            <article class="project-card peach">
+                <h3>Formal Verification & Tool Chain</h3>
+                <p>Custom 16-bit ISA with CPU simulator,Assembler and formal correctness proofs in Coq.</p>
+                <div class="project-links">
+                <a href="https://gitlab.com/rajdeep-314/formal-verification-oelp" target="_blank">GitLab</a>
+                </div>
+            </article>
 
-        <article class="project-card pink">
-          <h3>Rocketry Avionics System</h3>
-          <p>Designing a real-time avionics system using ESP32 and FreeRTOS to collect, log, and transmit motion (MPU6050) and altitude (BMP280) data during rocket flight</p>
-          <!-- <div class="project-links">
-            <a href="https://github.com/SreenathKarthick11/X_Ray_Analyser" target="_blank">GitHub</a>
-          </div> -->
-        </article>
+            <article class="project-card blue">
+                <h3>ESP-ML Library</h3>
+                <p>Real-time ML inference on ESP32 microcontrollers through Rest APIs.</p>
+                <div class="project-links">
+                <a href="https://github.com/SreenathKarthick11/ESP_ML" target="_blank">GitHub</a>
+                <a href="https://esp-ml-backend.onrender.com/" target="_blank">Live API</a>
+                </div>
+            </article>
 
-      </div>
+            <article class="project-card pink">
+                <h3>Rocketry Avionics System</h3>
+                <p>Real-time ESP32-based avionics for flight telemetry logging, using FreeRTOS.</p>
+            </article>
+
+            <article class="project-card green">
+                <h3>Stellar ML</h3>
+                <p>Classification celestial objects (Stars, Galaxies, and Quasars) from the Sloan Digital Sky Survey (SDSS) DR17 dataset.</p>
+                <div class="project-links">
+                <a href="https://github.com/SreenathKarthick11/Stellar_ML" target="_blank">GitHub</a>
+                <a href="https://sreenathkarthick11.github.io/Stellar_ML/" target="_blank">Notebook</a>
+                </div>
+            </article>
+            
+            <!-- ADD MORE PROJECTS LATER, and they will auto-paginate -->
+            </div>
+        </div>
+        </div>
+
+        <button class="slider-btn next">&#10095;</button>
+    </div>
     </section>
+
 
     <!-- TECH STACK -->
     <section id="skills">
@@ -736,6 +816,7 @@
         <div class="tech-badge">Numpy</div>
         <div class="tech-badge">IoT</div>
         <div class="tech-badge">ESP-32</div>
+        <div class="tech-badge">FreeRTOS</div>
       </div>
     </section>
 
@@ -755,6 +836,57 @@
   <footer class="footer">
     <p>© 2025 Sreenath Karthick — Building intelligent, interpretable systems.</p>
   </footer>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const grid = document.getElementById("projectsGrid");
+  const cards = Array.from(grid.children);
+  const wrapper = document.querySelector(".projects-slider .projects-grid-wrapper");
+
+  const nextBtn = document.querySelector(".next");
+  const prevBtn = document.querySelector(".prev");
+  function getPageSize() {
+    return window.innerWidth <= 768 ? 3 : 6; 
+  }
+  const pageSize = getPageSize();
+  let currentPage = 0;
+
+  // Remove base grid
+  grid.remove();
+
+  // Create pages dynamically
+  const pages = [];
+  for (let i = 0; i < cards.length; i += pageSize) {
+    const pageGrid = document.createElement("div");
+    pageGrid.className = "projects-grid";
+    cards.slice(i, i + pageSize).forEach(card => pageGrid.appendChild(card));
+    pages.push(pageGrid);
+  }
+
+  // Insert pages into wrapper
+  wrapper.innerHTML = "";
+  pages.forEach(p => wrapper.appendChild(p));
+
+  const totalPages = pages.length;
+
+  function updateSlider() {
+    wrapper.style.transform = `translateX(${-currentPage * 100}%)`;
+  }
+
+  nextBtn.addEventListener("click", () => {
+    if (currentPage < totalPages - 1) currentPage++;
+    updateSlider();
+  });
+
+  prevBtn.addEventListener("click", () => {
+    if (currentPage > 0) currentPage--;
+    updateSlider();
+  });
+
+  updateSlider();
+});
+</script>
+
+
 
 </body>
 </html>
