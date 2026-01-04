@@ -52,7 +52,7 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
 ---
 
 ### Web Systems & Cognitive Tools
-- [**Slope Motion System**](https://github.com/ashwinramaswamy92/Slope_Motion_System)  
+- [**Slope Motion System**](https://github.com/Murali47k/Slope_Motion_System)  
   Cognitive learning tool to visualize slopes and derivatives.  
   **Live:** [slope-motion-system](https://slope-motion-system-m2.onrender.com/)  
   
