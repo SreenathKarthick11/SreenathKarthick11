@@ -69,8 +69,8 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
 ---
 
 ###  Hardware, Embedded & Fun Builds
--  **Rocketry Avionics System (Ongoing)** – Real-time ESP32 + FreeRTOS flight telemetry and altitude logging system.  
-  *(FreeRTOS · Sensors · ESP32)*  
+-  [**Rocketry Avionics System**](https://github.com/SreenathKarthick11/Rocketry-Avionics-Subsytem) – Real-time ESP32 + FreeRTOS flight telemetry and altitude logging system.  
+    
 
 - [**Voico-Bot**](https://github.com/Murali47k/Voico-BOT) – Voice-controlled bot with ESP32 + web interface.  
 
@@ -78,7 +78,8 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
 
 ##  Achievements
 
-- **8th Place – Inter IIT Tech Meet (ISRO Problem Statement, IIT Bombay)**  
+- **8th Place - Inter IIT Tech Meet (ISRO Problem Statement, IIT Bombay)** 
+- **Top 15  - InSpace Model Rocketry Competetion (ISRO,InSpace,Astronomical Society India)**
 ---
 
 ##  GitHub Stats
