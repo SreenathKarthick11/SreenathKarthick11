@@ -12,7 +12,8 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
 - Third-year B.Tech student in Computer Science  
 - Passionate about **Explainable AI, System Design, and Embedded ML**  
 - Exploring **AI interpretability, cognition in learning, and intelligent IoT**  
-- Building projects that combine **deep tech + practical innovation**  
+- Building projects that combine **deep tech + practical innovation**
+- [**Portfolio**](https://sreenathkarthick11.github.io/SreenathKarthick11/)  
 
 ---
 
