@@ -83,18 +83,6 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
 - **Top 15  - InSpace Model Rocketry Competetion (ISRO,InSpace,Astronomical Society India)**
 ---
 
-##  GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SreenathKarthick11&show_icons=true&theme=radical" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SreenathKarthick11&layout=compact&theme=radical" height="160"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SreenathKarthick11&theme=radical" height="160"/>
-</p>
-
----
-
 ##  Connect with Me
 <p align="center">
   <a href="https://www.linkedin.com/in/sreenath-karthick-7551aa288/">
