@@ -25,10 +25,14 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
   <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=opencv&logoColor=white"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/OCaml-EC6813?style=for-the-badge&logo=ocaml&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Rocq-7A3E9D?style=for-the-badge&logo=coq&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
 </p>
 
 ---
@@ -68,6 +72,14 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
   **Live:** [dip-workshop](https://sreenathkarthick11.github.io/dip-workshop/)  
 
 ---
+
+### Compiler & Tool Chain
+
+- [**Formal Verfied Tool Chain**](https://gitlab.com/rajdeep-314/ptools)
+Developing tools for the Foundations of Computing Systems course, involving the design of a custom 32-bit
+RISC-V inspired ISA and a CPU simulator ,VM emulator.
+- [**Tiger Compiler**](https://gitlab.com/SreenathKarthick11/112301042-Compiler)
+   A compiler for a subset tiger language.
 
 ###  Hardware, Embedded & Fun Builds
 -  [**Rocketry Avionics System**](https://github.com/SreenathKarthick11/Rocketry-Avionics-Subsytem) – Real-time ESP32 + FreeRTOS flight telemetry and altitude logging system.  
