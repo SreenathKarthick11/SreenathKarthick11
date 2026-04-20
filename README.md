@@ -75,10 +75,10 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
 
 ### Compiler & Tool Chain
 
-- [**Formal Verfied Tool Chain**](https://gitlab.com/rajdeep-314/ptools)
-Developing tools for the Foundations of Computing Systems course, involving the design of a custom 32-bit
-RISC-V inspired ISA and a CPU simulator ,VM emulator.
-- [**Tiger Compiler**](https://gitlab.com/SreenathKarthick11/112301042-Compiler)
+- [**Formal Verfied Tool Chain**](https://gitlab.com/rajdeep-314/ptools) \
+  Developing tools for the Foundations of Computing Systems course, involving the design of a custom 32-bit
+  RISC-V inspired ISA and a CPU simulator ,VM emulator.
+- [**Tiger Compiler**](https://gitlab.com/SreenathKarthick11/112301042-Compiler) \
    A compiler for a subset tiger language.
 
 ---
