@@ -81,6 +81,8 @@ RISC-V inspired ISA and a CPU simulator ,VM emulator.
 - [**Tiger Compiler**](https://gitlab.com/SreenathKarthick11/112301042-Compiler)
    A compiler for a subset tiger language.
 
+---
+
 ###  Hardware, Embedded & Fun Builds
 -  [**Rocketry Avionics System**](https://github.com/SreenathKarthick11/Rocketry-Avionics-Subsytem) – Real-time ESP32 + FreeRTOS flight telemetry and altitude logging system.  
     
