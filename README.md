@@ -1,23 +1,33 @@
-<h1 align="center">Hi there, I'm Sreenath Karthick</h1>
+<h1 align="center">Hi there, I'm Sreenath Karthick </h1>
 
 <p align="center">
-<b>Computer Science Undergraduate at IIT Palakkad</b> <br>
-Driven by curiosity for <b>AI, Embedded Systems, and Cognitive Computing</b> <br>
-I love solving real-world problems by blending <b>AI, hardware, and software systems</b>.
+<b>Computer Science Undergraduate at IIT Palakkad</b>
+<br>
+Building at the intersection of <b>AI, Systems,Formal Methods and IoT</b>.
+<br>
+I enjoy turning ideas into practical software and intelligent systems.
+</p>
+
+<p align="center">
+<a href="https://sreenathkarthick11.github.io/SreenathKarthick11/">
+  <img src="https://img.shields.io/badge/Explore%20My%20Portfolio-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
 </p>
 
 ---
 
 ## About Me
-- Third-year B.Tech student in Computer Science  
-- Passionate about **Explainable AI, System Design, and Embedded ML**  
-- Exploring **AI interpretability, cognition in learning, and intelligent IoT**  
-- Building projects that combine **deep tech + practical innovation**
-- [**Portfolio**](https://sreenathkarthick11.github.io/SreenathKarthick11/)  
+
+Computer Science undergraduate at IIT Palakkad with experience across **AI systems, machine learning, software engineering, and systems programming**. I enjoy building reliable and practical software, with a focus on **MLOps, multi-agent LLMs, agentic workflows, backend systems, IoT, explainable AI, and formal methods**.
+
+I like understanding systems end-to-end and turning ideas into working, scalable solutions.
+
+[**Portfolio**](https://sreenathkarthick11.github.io/SreenathKarthick11/)
 
 ---
 
 ## Tech Stack
+
 <p align="center">
   <img src="https://img.shields.io/badge/C-blue?style=for-the-badge&logo=c&logoColor=white"/>
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
@@ -33,71 +43,14 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
   <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
 </p>
 
 ---
 
-## Featured Projects
+## Connect with Me
 
-### AI / ML & Explainability
-- [**PeliCAM**](https://github.com/SreenathKarthick11/PeliCAM)  
-  Visual Explainable AI tool supporting CAM, LIME, and SHAP.  
-  **Live:** [peliCAM-web](https://sreenathkarthick11.github.io/PeliCAM-web/)  
-
-- [**Moon Mapping (ISRO Problem)**](https://github.com/enchanteddev/MoonViewer)  
-  XRF data analysis for lunar albedo visualization.
-  
-- [**Stellar ML**](https://github.com/SreenathKarthick11/Stellar_ML) \
-  Comprehensive ML project that classifies celestial objects from the Sloan Digital Sky Survey (SDSS) DR17 dataset \
-  **Live:** [notebook](https://sreenathkarthick11.github.io/Stellar_ML/)
-  
-- [**X-Ray Analyser**](https://github.com/SreenathKarthick11/X_Ray_Analyser)  
-  CNN-based medical image classifier for fracture detection.
-
----
-
-### Web Systems & Cognitive Tools
-- [**Slope Motion System**](https://github.com/ashwinramaswamy92/Slope_Motion_System)  
-  Cognitive learning tool to visualize slopes and derivatives.  
-  **Live:** [slope-motion-system](https://slope-motion-system-m2.onrender.com/)  
-  
-
-- [**ESP-ML Library**](https://github.com/SreenathKarthick11/ESP_ML)  
-  ML library for ESP32 enabling cloud inference via REST APIs.  
-  **Live API:** [esp-ml-backend](https://esp-ml-backend.onrender.com/)  
- 
-
-- [**DIP Workshop Web**](https://github.com/SreenathKarthick11/dip-workshop)  
-  Interactive educational site for Digital Image Processing concepts.  
-  **Live:** [dip-workshop](https://sreenathkarthick11.github.io/dip-workshop/)  
-
----
-
-### Compiler & Tool Chain
-
-- [**Formal Verfied Tool Chain**](https://gitlab.com/rajdeep-314/ptools) \
-  Developing tools for the Foundations of Computing Systems course, involving the design of a custom 32-bit
-  RISC-V inspired ISA and a CPU simulator ,VM emulator.
-- [**Tiger Compiler**](https://gitlab.com/SreenathKarthick11/112301042-Compiler) \
-   A compiler for a subset tiger language.
-
----
-
-###  Hardware, Embedded & Fun Builds
--  [**Rocketry Avionics System**](https://github.com/SreenathKarthick11/Rocketry-Avionics-Subsytem) – Real-time ESP32 + FreeRTOS flight telemetry and altitude logging system.  
-    
-
-- [**Voico-Bot**](https://github.com/Murali47k/Voico-BOT) – Voice-controlled bot with ESP32 + web interface.  
-
----
-
-##  Achievements
-
-- **8th Place - Inter IIT Tech Meet (ISRO Problem Statement, IIT Bombay)** 
-- **Top 15  - InSpace Model Rocketry Competetion (ISRO,InSpace,Astronomical Society India)**
----
-
-##  Connect with Me
 <p align="center">
   <a href="https://www.linkedin.com/in/sreenath-karthick-7551aa288/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -105,10 +58,13 @@ I love solving real-world problems by blending <b>AI, hardware, and software sys
   <a href="https://github.com/SreenathKarthick11">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
+  <a href="https://gitlab.com/SreenathKarthick11">
+    <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white"/>
+  </a>
 </p>
 
 ---
 
 <p align="center">
-<i>“Curiosity drives creation — I believe in building intelligent, transparent, and impactful technology.”</i> 
+<i>“Curiosity drives creation.”</i>
 </p>
