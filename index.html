@@ -16,12 +16,12 @@
       --text-secondary: #a8adb7;
       --accent: #4a5058;
       --border: #353943;
-      
+
       --pink: #d4d6da;
       --blue: #c8cad0;
       --green: #dcdee2;
       --peach: #e0e2e6;
-      
+
       --radius: 12px;
       --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
       --maxw: 1200px;
@@ -118,7 +118,7 @@
       flex-shrink: 0;
     }
     .hero-content{
-        background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/stock.jpg'); 
+        background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/stock.jpg');
         padding: 70px 300px 70px 30px;
         border-radius: 20px;
         border: 2px solid #e8e9ed;
@@ -585,7 +585,7 @@
 
 .projects-grid-wrapper {
   display: flex;
-  align-items: flex-start; 
+  align-items: flex-start;
   transition: transform 0.4s ease-in-out;
 }
 .projects-grid-wrapper > .projects-grid {
@@ -599,7 +599,7 @@
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 1.5rem;
   padding: 0 1rem;
-  align-content: start; 
+  align-content: start;
 }
 
 /* slider arrows */
@@ -701,9 +701,9 @@
       <h2 class="section-title">About Me</h2>
       <div class="about-content">
         <p>
-          I'm a third-year Computer Science undergraduate passionate about 
+          I'm a final-year Computer Science undergraduate passionate about
           Explainable AI, Embedded Machine Learning, and Cognitive Learning Systems.
-          I love building intelligent systems backed by clear interpretability and thoughtful design, 
+          I love building intelligent systems backed by clear interpretability and thoughtful design,
           bringing together software, hardware, and human-centered thinking.
         </p>
       </div>
@@ -716,9 +716,9 @@
       <div class="experience-item">
         <h3>Research Intern — DRDO (DYSL-CT)</h3>
         <p>
-          Worked on Explainable AI techniques including <strong>LIME, SHAP, and CAM</strong>, 
-          developing deep-learning model interpretation tools for security and defence use cases.  
-          Built CAM visualization pipelines for CNNs and contributed to a multilingual text-classification system 
+          Worked on Explainable AI techniques including <strong>LIME, SHAP, and CAM</strong>,
+          developing deep-learning model interpretation tools for security and defence use cases.
+          Built CAM visualization pipelines for CNNs and contributed to a multilingual text-classification system
           (English + Indian languages).
         </p>
       </div>
@@ -726,9 +726,9 @@
       <div class="experience-item">
         <h3>Software Intern — TIFR (HBCSE)</h3>
         <p>
-          Contributing to a research-backed educational cognition system for understanding how children 
-          form mathematical concepts.  
-          Designed interactive tools that visualize slopes, derivatives, and geometric intuition, and built 
+          Contributing to a research-backed educational cognition system for understanding how children
+          form mathematical concepts.
+          Designed interactive tools that visualize slopes, derivatives, and geometric intuition, and built
           the web-serving backend for real experiments used by researchers.
         </p>
       </div>
@@ -745,7 +745,7 @@
         <div class="projects-grid-wrapper">
             <div class="projects-grid" id="projectsGrid">
             <!-- Your SAME project articles – untouched -->
-            
+
             <article class="project-card pink">
                 <h3>PeliCAM</h3>
                 <p>Explainability toolkit supporting CAM, LIME, and SHAP for deep learning models.</p>
@@ -792,7 +792,7 @@
                 <a href="https://esp-ml-backend.onrender.com/" target="_blank">Live API</a>
                 </div>
             </article>
-            
+
             <article class="project-card blue">
                 <h3>Rate Limiters</h3>
                 <p>
@@ -819,7 +819,7 @@
                 <a href="https://sreenathkarthick11.github.io/Stellar_ML/" target="_blank">Notebook</a>
                 </div>
             </article>
-            
+
             <!-- ADD MORE PROJECTS LATER, and they will auto-paginate -->
             </div>
         </div>
@@ -877,7 +877,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const nextBtn = document.querySelector(".next");
   const prevBtn = document.querySelector(".prev");
   function getPageSize() {
-    return window.innerWidth <= 768 ? 3 : 6; 
+    return window.innerWidth <= 768 ? 3 : 6;
   }
   const pageSize = getPageSize();
   let currentPage = 0;
