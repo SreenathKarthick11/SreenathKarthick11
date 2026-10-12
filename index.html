@@ -602,6 +602,27 @@
   align-content: start;
 }
 
+/* PROJECT TECHNOLOGY TAGS */
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: -0.15rem 0 1rem;
+}
+
+.project-tag {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 999px;
+    background: #1a1d23;
+    color: #f5f5f5;
+    font-size: 0.72rem;
+    font-weight: 500;
+    line-height: 1.45;
+    white-space: nowrap;
+}
+
 /* slider arrows */
 .slider-btn {
   background: var(--bg-secondary);
@@ -640,6 +661,16 @@
     font-size: 1.2rem;
     display: none !important;
   }
+
+  .project-tags {
+        gap: 0.35rem;
+        margin-bottom: 0.85rem;
+    }
+
+    .project-tag {
+        font-size: 0.68rem;
+        padding: 0.2rem 0.5rem;
+    }
 
 }
 
@@ -682,9 +713,7 @@
     <div class="hero-content">
       <h1>M Sreenath Karthick</h1>
       <p class="subtitle">Computer Science Undergraduate @ IIT Palakkad</p>
-      <!-- <p class="description">
-        AI • Embedded Systems • Cognitive Computing
-      </p> -->
+
       <div class="contact-links">
         <a class="contact-btn" href="mailto:msreenathkarthick2005@gmail.com">Email</a>
         <a class="contact-btn" href="https://github.com/SreenathKarthick11" target="_blank">GitHub</a>
@@ -758,16 +787,31 @@
             <article class="project-card pink">
                 <h3>PeliCAM</h3>
                 <p>Explainability toolkit supporting CAM, LIME, and SHAP for deep learning models.</p>
+                <div class="project-tags">
+                  <span class="project-tag">Python</span>
+                  <span class="project-tag">PyTorch</span>
+                  <span class="project-tag">PyQt5</span>
+                  <span class="project-tag">NumPy</span>
+                  <span class="project-tag">LIME</span>
+                  <span class="project-tag">SHAP</span>
+              </div>
                 <div class="project-links">
                 <a href="https://github.com/SreenathKarthick11/PeliCAM" target="_blank">GitHub</a>
                 <a href="https://sreenathkarthick11.github.io/PeliCAM-web/" target="_blank">Live Demo</a>
                 <a href="docs/PeliCAM.pdf" target="_blank">Manual</a>
                 </div>
+
             </article>
 
             <article class="project-card blue">
                 <h3>Moon Mapping (ISRO)</h3>
                 <p>XRF spectrum analysis to generate lunar albedo maps for planetary research.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">Scipy</span>
+                    <span class="project-tag">Plotly</span>
+                    <span class="project-tag">NumPy</span>
+                </div>
                 <div class="project-links">
                 <a href="https://github.com/enchanteddev/MoonViewer" target="_blank">GitHub</a>
                 <a href="docs/41_ISRO_endterm.pdf" target="_blank">Report</a>
@@ -777,6 +821,12 @@
             <article class="project-card green">
                 <h3>Slope Motion System</h3>
                 <p>Interactive cognitive learning system for building intuition around slopes and derivatives.</p>
+                <div class="project-tags">
+                    <span class="project-tag">JavaScript</span>
+                    <span class="project-tag">Node.js</span>
+                    <span class="project-tag">Express.js</span>
+                    <span class="project-tag">Socket.IO</span>
+                </div>
                 <div class="project-links">
                 <a href="https://github.com/ashwinramaswamy92/Slope_Motion_System" target="_blank">GitHub</a>
                 <a href="https://slope-motion-system-m2.onrender.com/" target="_blank">Live Demo</a>
@@ -788,8 +838,13 @@
             <article class="project-card peach">
                 <h3>Gaur Tool Chain</h3>
                 <p>
-                   A Rocq-verified toolchain for a custom 32-bit RISC-V inspired ISA, featuring an assembler, disassembler, CPU simulator, VM emulator, and RAM initializer, built with OCaml and js_of_ocaml.
+                   A Rocq-verified toolchain for a custom 32-bit RISC-V inspired ISA, featuring an assembler, disassembler, CPU simulator, VM emulator, and RAM initializer.
                 </p>
+                <div class="project-tags">
+                    <span class="project-tag">Rocq</span>
+                    <span class="project-tag">OCaml</span>
+                    <span class="project-tag">js_of_ocaml</span>
+                </div>
                 <div class="project-links">
                     <a href="https://gitlab.com/verify-at-iitpkd/gaur"
                       target="_blank" rel="noopener noreferrer">GitLab</a>
@@ -803,6 +858,13 @@
             <article class="project-card blue">
                 <h3>ESP-ML Library</h3>
                 <p>Real-time ML inference on ESP32 microcontrollers through Rest APIs.</p>
+                <div class="project-tags">
+                    <span class="project-tag">C/C++</span>
+                    <span class="project-tag">ESP32</span>
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">Flask</span>
+                    <span class="project-tag">scikit-learn</span>
+                </div>
                 <div class="project-links">
                 <a href="https://github.com/SreenathKarthick11/ESP_ML" target="_blank">GitHub</a>
                 <a href="https://esp-ml-backend.onrender.com/" target="_blank">Live API</a>
@@ -814,6 +876,13 @@
                 <p>
                     Redis + Lua based implementation of production-grade rate limiting algorithms with CI benchmarking and traffic analysis.
                 </p>
+                <div class="project-tags">
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">Redis</span>
+                    <span class="project-tag">Lua</span>
+                    <span class="project-tag">FastAPI</span>
+                    <span class="project-tag">Docker</span>
+                </div>
                 <div class="project-links">
                     <a href="https://github.com/SreenathKarthick11/Rate-limiters" target="_blank">GitHub</a>
                 </div>
@@ -822,6 +891,13 @@
             <article class="project-card pink">
                 <h3>Rocketry Avionics System</h3>
                 <p>Real-time ESP32-based avionics for flight telemetry logging, using FreeRTOS.</p>
+                <div class="project-tags">
+                    <span class="project-tag">C/C++</span>
+                    <span class="project-tag">ESP32</span>
+                    <span class="project-tag">FreeRTOS</span>
+                    <span class="project-tag">Sensors</span>
+                    <span class="project-tag">LittleFS</span>
+                </div>
                 <div class="project-links">
                 <a href="https://github.com/SreenathKarthick11/Rocketry-Avionics-Subsytem" target="_blank">GitHub</a>
                 </div>
@@ -830,6 +906,14 @@
             <article class="project-card green">
                 <h3>Stellar ML</h3>
                 <p>Classification celestial objects (Stars, Galaxies, and Quasars) from the Sloan Digital Sky Survey (SDSS) DR17 dataset.</p>
+                <div class="project-tags">
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">Pandas</span>
+                    <span class="project-tag">NumPy</span>
+                    <span class="project-tag">scikit-learn</span>
+                    <span class="project-tag">SHAP</span>
+                    <span class="project-tag">Plotly</span>
+                </div>
                 <div class="project-links">
                 <a href="https://github.com/SreenathKarthick11/Stellar_ML" target="_blank">GitHub</a>
                 <a href="https://sreenathkarthick11.github.io/Stellar_ML/" target="_blank">Notebook</a>
@@ -844,6 +928,12 @@
                     validation, ARIMA-based forecasting, ILP-driven GPU allocation,
                     and drift monitoring to optimize resource utilization.
                 </p>
+                <div class="project-tags">
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">CI/CD</span>
+                    <span class="project-tag">Docker</span>
+                    <span class="project-tag">MLOps</span>
+                </div>
                 <div class="project-links">
                     <a href="https://github.com/SreenathKarthick11/Sage-Serve"
                       target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -857,6 +947,13 @@
                     Hallucination-aware multi-agent debate framework for small local
                     LLMs using LangGraph, RAG, web search, and tool-augmented reasoning.
                 </p>
+                <div class="project-tags">
+                    <span class="project-tag">Python</span>
+                    <span class="project-tag">LangGraph</span>
+                    <span class="project-tag">LangChain</span>
+                    <span class="project-tag">Ollama</span>
+                    <span class="project-tag">Chroma</span>
+                </div>
                 <div class="project-links">
                     <a href="https://github.com/SreenathKarthick11/Local_LLM_Debate"
                       target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -873,6 +970,13 @@
                     LangGraph, local LLMs, structured planning, chart generation,
                     and slide storytelling.
                 </p>
+                <div class="project-tags">
+                    <span class="project-tag">LangGraph</span>
+                    <span class="project-tag">LangChain</span>
+                    <span class="project-tag">Ollama</span>
+                    <span class="project-tag">Pandas</span>
+                    <span class="project-tag">Matplotlib</span>
+                </div>
                 <div class="project-links">
                     <a href="https://github.com/SreenathKarthick11/Sheet2Slide"
                       target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -885,8 +989,15 @@
                 <p>
                     Centralized event management platform for multi-campus institutions,
                     supporting venue allocation, event discovery, participant registration,
-                    and role-based administration using FastAPI, PostgreSQL, and React.
+                    and role-based administration.
                 </p>
+                <div class="project-tags">
+                  <span class="project-tag">Python</span>
+                  <span class="project-tag">FastAPI</span>
+                  <span class="project-tag">PostgreSQL</span>
+                  <span class="project-tag">React</span>
+                  <span class="project-tag">TypeScript</span>
+              </div>
                 <div class="project-links">
                     <a href="https://github.com/SreenathKarthick11/Eagle"
                       target="_blank" rel="noopener noreferrer">GitHub</a>
